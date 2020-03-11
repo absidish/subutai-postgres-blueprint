@@ -69,7 +69,7 @@
 
     - name: Install psycopg2 python package
       pip:
-        name: psycopg2
+        name: psycopg2-binary==2.8.3
 
     # -------------------------------------------------------------------------
     # Configure the local Postgres Server Instance
